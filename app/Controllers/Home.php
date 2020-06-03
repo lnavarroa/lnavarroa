@@ -9,12 +9,12 @@ class Home extends BaseController
                 'welcome' => 'Bienvenido',
                 'navbrand' => 'Template'
         ];
-		echo view('templates/head',$data);
-		echo view('templates/header',$data);
-		echo view('templates/navbar',$data);
-		echo view('templates/carousel');
-		echo view('templates/cards');
-		echo view('templates/contact');
-		echo view('templates/footer');
+		echo view('welcome_message');
+//		echo view('templates/header',$data);
+//		echo view('templates/navbar',$data);
+//		echo view('templates/carousel');
+//		echo view('templates/cards');
+//		echo view('templates/contact');
+//		echo view('templates/footer');
 	}
 }
